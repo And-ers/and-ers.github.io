@@ -1,17 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Card from '../components/Card.astro';<h1>Anders Cornect's personal site</h1>
+const pageTitle = "About Me";
 ---
 
-<Layout title="Anders Cornect">
+<Layout title=pageTitle>
 	<main>
         <a href="/">Home</a>
         <a href="/about/">About</a>
         <a href="/blog/">Blog</a>
-
-		<h1>Anders Cornect's personal site</h1>
+		<head><h1>Anders Cornect's</h1><h2>personal site</h2></head>
         <body>
-            <h2>About Me</h2>
+            <h2>{pageTitle}</h2>
 
             <p>I am a research mathematician born in Newfoundland, Canada. In 2024 I graduated from the Memorial University of Newfoundland with a BSc. (Hons) </p>
         </body>
