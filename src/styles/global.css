@@ -31,7 +31,7 @@ html {
   font-family: system-ui, sans-serif;
   top: 5rem;
   left: 48px;
-  background-color: #3bc999;
+  background-color: #17503d;
   display: none;
   margin: 0;
   color: white;
@@ -50,7 +50,7 @@ html {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #80e3fc;
+  background-color: #17503d;
 }
 
 .expanded {
