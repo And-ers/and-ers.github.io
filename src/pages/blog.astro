@@ -3,14 +3,13 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 const pageTitle = "My Blog";
 import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
 ---
 
 <Layout title={pageTitle}>
 	<title>{pageTitle}</title>
 	<main>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/blog/">Blog</a>
+        <Navigation />
 
 		<h1>"Anders Cornect's personal site"</h1>
         <body>
