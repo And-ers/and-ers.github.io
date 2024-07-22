@@ -1,5 +1,5 @@
 html {
-    background-color: #010127;
+    background-color: #043927;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url('../assets/branches.jpg');
     background-size: cover;
@@ -31,7 +31,7 @@ html {
   font-family: system-ui, sans-serif;
   top: 5rem;
   left: 48px;
-  background-color: #80e3fc;
+  background-color: #3bc999;
   display: none;
   margin: 0;
   color: white;
