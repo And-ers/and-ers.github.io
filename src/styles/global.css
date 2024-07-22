@@ -1,7 +1,7 @@
 html {
     background-color: #010127;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url('https://img.freepik.com/free-psd/modern-abstract-blue-gradient-background_84443-3716.jpg?w=1380&t=st=1721664416~exp=1721665016~hmac=9830dd3384ee7c461eb88f8a5327e48df7b23bee6b3e36b4a32efd9579d20c02');
+    background-image: url('../assets/vecteezy-bg.jpg');
     background-size: cover;
     height: 100%;
   }
