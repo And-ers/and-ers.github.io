@@ -1,6 +1,6 @@
 ---
 const { platform, username } = Astro.props;
-const imsrc = '../assets/' + platform + '.png'
+const imsrc = `../assets/${platform}.png`
 var img = document.getElementById("social-img")
 img.setAttribute("src", imsrc)
 ---
