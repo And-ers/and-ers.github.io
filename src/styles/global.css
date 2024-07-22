@@ -27,6 +27,7 @@ html {
 
 .nav-links {
   width: 100%;
+  font-family: system-ui, sans-serif;
   top: 5rem;
   left: 48px;
   background-color: #80e3fc;
