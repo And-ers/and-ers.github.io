@@ -2,7 +2,7 @@ html {
     background-color: #010127;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url('../assets/vecteezy-bg.jpg');
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(50px);
     background-size: cover;
     height: 100%;
   }
