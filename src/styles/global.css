@@ -30,9 +30,10 @@ html {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #ff9776;
+  background-color: #80e3fc;
   display: none;
   margin: 0;
+  color: white;
 }
 
 .nav-links a {
@@ -47,7 +48,7 @@ html {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #ff9776;
+  background-color: #80e3fc;
 }
 
 .expanded {
