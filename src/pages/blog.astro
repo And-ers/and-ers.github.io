@@ -5,8 +5,10 @@ const pageTitle = "My Blog";
 import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
 ---
 
+<Header />
 <Layout title={pageTitle}>
 	<title>{pageTitle}</title>
 	<main>
@@ -17,9 +19,14 @@ import Footer from '../components/Footer.astro';
             <h2>My Blog</h2>
 
             <p>I am posting things here.</p>
+
+			<ul>
+				<li><a href="/posts/post-2024-07-17/">First Blog Post</a></li>
+			</ul>
         </body>
 	</main>
 </Layout>
+<Footer />
 
 <style>
 	main {
