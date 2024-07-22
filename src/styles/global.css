@@ -44,6 +44,7 @@ html {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: white;
 }
 
 .nav-links a:hover,
