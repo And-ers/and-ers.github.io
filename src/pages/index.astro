@@ -6,6 +6,8 @@ import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import { Image } from 'astro:assets';
+import pfp from '../assets/profilepic.png'
 ---
 
 <Header />
@@ -13,6 +15,7 @@ import Header from '../components/Header.astro';
 	<main>
 		<h1>Anders Cornect's</h1>
 		<h2 style="text-align: center; margin-top: -60px;">personal site</h2>
+		<Image src={pfp}, alt="Me at a blackboard." />
 		<p>
 			Built with Astro.
 		</p>
