@@ -1,7 +1,7 @@
 html {
-    background-color: #043927;
+    background-color: #f0c1b7;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url('../assets/branches.jpg');
+    background-image: url('../assets/pinkrock.jpg');
     background-size: cover;
     height: 100%;
   }
@@ -31,10 +31,10 @@ html {
   font-family: system-ui, sans-serif;
   top: 5rem;
   left: 48px;
-  background-color: #17503d;
+  background-color: #f0c1b7;
   display: none;
   margin: 0;
-  color: white;
+  color: #6A4F54;
 }
 
 .nav-links a {
@@ -45,12 +45,12 @@ html {
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: white;
+  color: #6A4F54;
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #17503d;
+  background-color: #e9849f;
 }
 
 .expanded {
