@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import github_img from '../assets/github.png';
 ---
 
+<div class="clear"></div>
 <footer>
     <a href="http://www.github.com/And-ers"><Image src={github_img} alt="My GitHub" width="30" height="30"/></a>
     <a href="http://www.linkedin.com/in/anders-cornect-b44166301"><Image src={github_img} alt="My GitHub" width="30" height="30"/></a>
@@ -26,5 +27,10 @@ import github_img from '../assets/github.png';
       padding: 0.5rem 1rem;
       color: white;
       text-decoration: none;
+    }
+
+    .clear { 
+      clear: both;
+      height: 10rem;
     }
 </style>
