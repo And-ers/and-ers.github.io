@@ -52,7 +52,6 @@ html {
 .nav-links a:hover,
 .nav-links a:focus {
   text-decoration: underline;
-  background-color: #e9849f;
 }
 
 .expanded {
