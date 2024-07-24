@@ -41,7 +41,7 @@ html {
 .nav-links a {
   display: block;
   text-align: center;
-  padding: 0 10px 5px;
+  padding: 0 10px 1px;
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
@@ -51,6 +51,7 @@ html {
 
 .nav-links a:hover,
 .nav-links a:focus {
+  text-decoration: underline;
   background-color: #e9849f;
 }
 
