@@ -2,6 +2,8 @@ html {
     background-color: #f0c1b7;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url('../assets/leaves.png');
+    background-size: 640px 640px;
+    height: 100%;
   }
   
   body {
