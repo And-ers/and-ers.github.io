@@ -5,6 +5,10 @@ html {
     background-size: 480px 480px;
     height: 100%;
   }
+
+  main {
+    background-color: #f6f2ef;
+  }
   
   body {
     margin: 0 auto;
@@ -47,7 +51,6 @@ html {
   font-weight: bold;
   text-transform: uppercase;
   color: #6A4F54;
-  background-color: #f6f2ef;
 }
 
 .nav-links a:hover,
