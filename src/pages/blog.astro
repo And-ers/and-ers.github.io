@@ -1,4 +1,6 @@
 ---
+const allPosts = await Astro.glob('./posts/*.md');
+
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 const pageTitle = "My Blog";
@@ -6,8 +8,6 @@ import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-
-/*const allPosts = await Astro.glob('./posts/*.md');*/
 ---
 
 <Header />
@@ -23,7 +23,7 @@ import Header from '../components/Header.astro';
             <p>I am posting things here.</p>
 
 			<ul>
-				<!-- {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)} -->
+				{allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
 			</ul>
         </body>
 	</main>
