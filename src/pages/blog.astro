@@ -22,9 +22,9 @@ const allPosts = await Astro.glob('./posts/*.md');
 
             <p>I am posting things here.</p>
 
-			<ul>
-				<!-- {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)} -->
-			</ul>
+			<ol>
+				{allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+			</ol>
         </body>
 	</main>
 </Layout>
