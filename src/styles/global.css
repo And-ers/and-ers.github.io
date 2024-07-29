@@ -30,14 +30,18 @@ html {
   }
   
   h1 {
-    margin: 1rem 0;
+    margin: 0;
     font-size: 2.5rem;
   }
 
-  h2 {
+  .subtitle {
     text-align: center;
     margin-top: -40px;
     color: #6A4F54B0;
+  }
+
+  h3 {
+
   }
 
   /* nav styles */
