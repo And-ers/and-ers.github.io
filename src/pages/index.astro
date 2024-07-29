@@ -13,7 +13,8 @@ import { Image } from 'astro:assets';
 
 <Header />
 <Layout title={pageTitle}>
-	<Image src={pfp} alt="Me at a blackboard." width="430" height="350"/>
+	<Image src={pfp} alt="Me at a blackboard." width="450" height="450"/>
+	<div class="clear"></div>
 	<main>
 		<h1>Anders Cornect's</h1>
 		<h2 style="text-align: center; margin-top: -60px;">personal site</h2>
@@ -47,6 +48,9 @@ import { Image } from 'astro:assets';
 <Footer />
 
 <style>
+	.clear {
+		height: 10px;
+	}
 	main {
 		margin: auto;
 		padding: 1rem;
@@ -59,14 +63,7 @@ import { Image } from 'astro:assets';
 	.astro-a {
 		position: absolute;
 		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
-	}
-	h1 {
-		font-size: 4rem;
+		left: 50%;Image
 		font-weight: 700;
 		line-height: 1;
 		text-align: center;
