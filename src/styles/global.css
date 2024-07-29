@@ -31,13 +31,14 @@ html {
   /* nav styles */
 
 .nav-links {
+  align-items: center;
   width: 100%;
   font-family: system-ui, sans-serif;
   top: 0;
   left: 48px;
   padding: 0 0 5px;
   background-color: #f6f2ef;
-  display: none;
+  display: flex;
   margin: 0;
   color: #6A4F54;
 }
