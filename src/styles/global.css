@@ -9,6 +9,8 @@ html {
   main {
     background-color: #f6f2ef;
     border-style: solid;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   main * {
