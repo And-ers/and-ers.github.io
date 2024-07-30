@@ -3,17 +3,10 @@ import mdx from "@astrojs/mdx";
 import rehypeKatex from 'rehype-katex'; // relevant
 import remarkMath from 'remark-math';   // relevant
 
+// https://astro.build/config
 export default defineConfig({
-	markdown: {
-		shikiConfig: {
-			theme: "dracula",
-			wrap: false,
-		}
-	},
-	integrations: [
-		mdx({
-			remarkPlugins: [remarkMath], // relevant
-			rehypePlugins: [rehypeKatex] // relevant
-		}),
-	]
+  integrations: [mdx({
+    remarkPlugins: [remarkMath], // relevant
+    rehypePlugins: [rehypeKatex] // relevant
+  })]
 });
