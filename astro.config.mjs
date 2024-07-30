@@ -10,7 +10,6 @@ export default defineConfig({
 			wrap: false,
 		}
 	},
-	site: "https://r3zz.com",
 	integrations: [
 		mdx({
 			remarkPlugins: [remarkMath], // relevant
