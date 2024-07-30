@@ -11,12 +11,10 @@ import pfp from '../assets/profilepic.png'
 import { Image } from 'astro:assets';
 ---
 
-<Header />
 <Layout title={pageTitle}>
-	<body>
-	<Image src={pfp} alt="Me at a blackboard." width="450" height="450"/>
-	<div class="clear"></div>
 	<main>
+		<Image src={pfp} alt="Me at a blackboard." width="450" height="450"/>
+		<div class="clear"></div>
 		<h1 class="maintitle">Anders Cornect's</h1>
 		<h2 class="subtitle">personal site</h2>
 		<p>
@@ -40,9 +38,7 @@ import { Image } from 'astro:assets';
 			/>
 		</ul>
 	</main>
-	</body>
 </Layout>
-<Footer />
 
 <style>
 	main {
