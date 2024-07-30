@@ -16,7 +16,5 @@ export default defineConfig({
 			remarkPlugins: [remarkMath], // relevant
 			rehypePlugins: [rehypeKatex] // relevant
 		}),
-		image(),
-		sitemap(),
-	],
+	]
 });
