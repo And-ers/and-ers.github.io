@@ -8,5 +8,5 @@ export default defineConfig({
   integrations: [mdx({
     remarkPlugins: [remarkMath], // relevant
     rehypePlugins: [rehypeKatex] // relevant
-  }), sitemap(), tailwind()],
+  }), image(), sitemap()],
 });
