@@ -7,6 +7,6 @@ import remarkMath from 'remark-math';   // relevant
 export default defineConfig({
   integrations: [mdx({
     remarkPlugins: [remarkMath], // relevant
-    rehypePlugins: ['rehypeKatex', {trust:true}] // relevant
+    rehypePlugins: [rehypeKatex] // relevant
   })]
 });
