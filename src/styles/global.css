@@ -1,14 +1,14 @@
 html {
     background-color: #f0c1b7;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url('../assets/cubes.jpg');
-    background-size: 20%;
+    /*background-image: url('../assets/cubes.jpg');
+    background-size: 20%;*/
     height: 100%;
   }
 
   main {
     background-color: #f6f2ef;
-    border-style: solid;
+    border-style: none;
     margin-left: 40px;
     margin-right: 40px;
   }
