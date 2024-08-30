@@ -18,7 +18,7 @@ const allRevs = await Astro.glob('../pages/reviews/*.mdx');
         <p>This is where I post reviews of shops and restaurants I visit around Ontario, usually in and around Waterloo (because, you know, that's where I live).</p>
 
 		<ol>
-			{allRevs.map((rev) => <li><a href={rev.url}>{rev.frontmatter.title}</a><p> - {rev.frontmatter.rating}<br/> {rev.frontmatter.address}</p></li>)}
+			{allRevs.map((rev) => <li><a href={rev.url}>{rev.frontmatter.title}</a><p style="display:inline">{rev.frontmatter.rating}<br/> {rev.frontmatter.address}</p></li>)}
 		</ol>
 	</main>
 </Layout>
