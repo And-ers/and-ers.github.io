@@ -1,0 +1,48 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+const pageTitle = "AnderRated ";
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+const allRevs = await Astro.glob('../pages/reviews/*.mdx');
+---
+
+<Layout title={pageTitle}>  
+	<main>
+		<h1 class="maintitle">AnderRated</h1>
+		<h2 class="subtitle">Anders' Restaurant and Shop Reviews</h2>
+
+        <p>This is where I post reviews of shops and restaurants I visit around Ontario, usually in and around Waterloo (because, you know, that's where I live).</p>
+
+		<ul>
+			{allRevs.map((rev) => <li><a href={rev.url}>{rev.frontmatter.title} - {rev.frontmatter.rating}<br/> {rev.frontmatter.address} </a></li>)}
+		</ul>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 880px;
+		max-width: calc(100% - 2rem);
+		color: #6A4F54;
+		line-height: 1.6;
+	}
+	.astro-a {
+		position: absolute;
+		top: -32px;
+		left: 50%;
+		transform: translatex(-50%);
+		width: 220px;
+		height: auto;
+		z-index: -1;
+	}
+	h1 {
+		font-weight: 700;
+		text-align: center;
+	}
+</style>
