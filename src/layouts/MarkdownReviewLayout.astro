@@ -15,7 +15,19 @@ import '../styles/global.css';
 <main>
 <h1>{frontmatter.title} - {frontmatter.rating}</h1>
 <h2>{frontmatter.address}</h2>
-<img src={frontmatter.image.url} width="700" alt={frontmatter.image.alt} style="display:float; margin-left:auto; margin-right:auto;"/>
+<img src={frontmatter.image.url} width="700" alt={frontmatter.image.alt} style="display:inline; float:left; margin-left:5rem;"/>
+<div style="background-color:rgba(150, 150, 250, 0.2); border-style: solid; padding: 1rem; margin-left: 0rem; width: 15rem; display:inline; float:left; margin:auto;">
+
+    <p style="display:inline; float:left; margin:auto; text-align:left;">
+    Prices: <span style="float:right;"> {frontmatter.rating.prices} </span><br/>
+    Speed: <span style="float:right;"> {frontmatter.rating.speed} </span><br/>
+    Service: <span style="float:right;"> {frontmatter.rating.service} </span><br/>
+    Quality: <span style="float:right;"> {frontmatter.rating.quality} </span><br/>
+    Vibes: <span style="float:right;"> {frontmatter.rating.vibes} </span><br/>
+    Date Potential: <span style="float:right;"> {frontmatter.rating.date} </span>
+    </p>
+    
+    </div>
 <p>{frontmatter.pubDate.toString().slice(0,10)}</p>
 <p><em>{frontmatter.description}</em></p>
 <p>Written by: {frontmatter.author}</p>
