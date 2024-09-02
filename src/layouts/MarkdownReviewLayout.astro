@@ -27,11 +27,11 @@ import '../styles/global.css';
     Date Potential: <span style="float:right;"> {frontmatter.rating.date} </span>
     </p>
     
-    </div>
+</div>
+<div class="height:2000;"></div>
 <p>{frontmatter.pubDate.toString().slice(0,10)}</p>
 <p><em>{frontmatter.description}</em></p>
 <p>Written by: {frontmatter.author}</p>
-<div class="height:2000;"></div>
 <slot />
 </main>
 </Layout>
