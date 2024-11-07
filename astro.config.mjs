@@ -6,6 +6,7 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
+  base: '/src/pages',
   site: 'https://and-ers.github.io',
   integrations: [mdx({
     remarkPlugins: [remarkMath],
