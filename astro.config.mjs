@@ -7,9 +7,10 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://and-ers.github.io',
+  output: 'static',
   integrations: [mdx({
     remarkPlugins: [remarkMath],
     rehypePlugins: [rehypeKatex]
-  }), 
+  }),
   react()]
 });
